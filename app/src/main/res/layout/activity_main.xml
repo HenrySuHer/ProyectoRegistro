@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/miLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensajeBienvenida"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+       />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conceptoProducto"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorNegro"/>
+    <EditText
+        android:id="@+id/campoConcepto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/PlaceholderConcepto"
+
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ValorProducto"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorNegro"/>
+    <EditText
+        android:id="@+id/CampoValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/IngresoProducto"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorNegro"/>
+    <EditText
+        android:id="@+id/CampoIngreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/BottonRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/IngresarBoton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boton"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:onClick="miMetodo"
+        />
+
+
+</LinearLayout>

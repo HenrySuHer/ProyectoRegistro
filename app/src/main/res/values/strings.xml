@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplicacion de registro</string>
+    <string name="mensajeBienvenida">Registro</string>
+    <string name="MensajeBoton">Boton</string>
+    <string name="IdProducto">ID del producto</string>
+    <string name="conceptoProducto">Concepto</string>
+    <string name="ValorProducto">Valor(MXN)</string>
+    <string name="IngresoProducto">Ingreso</string>
+    <string name="IngresarBoton">Registrar</string>
+    <string name="PlaceholderConcepto">Descripción</string>
+</resources>
