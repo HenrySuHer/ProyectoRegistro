@@ -1,16 +1,19 @@
 package com.henrysuher.andriod.aplicacion2;
 
 public class Registro {
-    private int Id;
+    private String Id;
     private String Concepto;
-    private float Valor;
+    private String Valor;
     private boolean Ingreso;
 
-    public int getId() {
+    public Registro(){
+    }
+
+    public String getId() {
         return Id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         Id = id;
     }
 
@@ -22,11 +25,11 @@ public class Registro {
         Concepto = concepto;
     }
 
-    public float getValor() {
+    public String getValor() {
         return Valor;
     }
 
-    public void setValor(float valor) {
+    public void setValor(String valor) {
         Valor = valor;
     }
 

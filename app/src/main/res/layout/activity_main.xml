@@ -59,12 +59,25 @@
         android:gravity="center"
         android:layout_marginBottom="10dp"
         android:textColor="@color/colorNegro"/>
-    <EditText
-        android:id="@+id/CampoIngreso"
+
+    <RadioGroup
+        android:id="@+id/grupoBotones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"/>
-
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <RadioButton
+            android:id="@+id/RbotonIngreso"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:checked="true"
+            android:text="Si"/>
+        <RadioButton
+            android:id="@+id/RbotonNoIngreso"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="No"/>
+    </RadioGroup>
     <Button
         android:id="@+id/BottonRegistrar"
         android:layout_width="match_parent"
@@ -76,7 +89,6 @@
         android:layout_height="wrap_content"
         android:text="Boton"
         android:drawableLeft="@drawable/ic_launcher_foreground"
-        android:onClick="miMetodo"
         />
 
 

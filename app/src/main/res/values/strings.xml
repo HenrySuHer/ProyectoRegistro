@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Aplicacion de registro</string>
-    <string name="mensajeBienvenida">Registro</string>
-    <string name="MensajeBoton">Boton</string>
-    <string name="IdProducto">ID del producto</string>
-    <string name="conceptoProducto">Concepto</string>
-    <string name="ValorProducto">Valor(MXN)</string>
-    <string name="IngresoProducto">Ingreso</string>
-    <string name="IngresarBoton">Registrar</string>
-    <string name="PlaceholderConcepto">Descripción</string>
+    <string name="app_name" translatable="false">Aplicacion de registro</string>
+    <string name="mensajeBienvenida" translatable="false">Registro</string>
+    <string name="MensajeBoton" translatable="false">Boton</string>
+    <string name="IdProducto" translatable="false">ID del producto</string>
+    <string name="conceptoProducto" translatable="false">Concepto</string>
+    <string name="ValorProducto" translatable="false">Valor(MXN)</string>
+    <string name="IngresoProducto" translatable="false">Ingreso</string>
+    <string name="IngresarBoton" translatable="false">Registrar</string>
+    <string name="PlaceholderConcepto" translatable="false">Descripción</string>
 </resources>
