@@ -1,4 +1,4 @@
-package com.henrysuher.andriod.aplicacion2;
+package com.henrysuher.andriod.aplicacion2.Modelo;
 
 public class Registro {
     private String Id;

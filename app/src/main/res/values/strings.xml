@@ -6,6 +6,7 @@
     <string name="conceptoProducto" translatable="false">Concepto</string>
     <string name="ValorProducto" translatable="false">Valor(MXN)</string>
     <string name="IngresoProducto" translatable="false">Ingreso</string>
-    <string name="IngresarBoton" translatable="false">Registrar</string>
+    <string name="IngresarBoton" translatable="false">Registrar en Firebase</string>
     <string name="PlaceholderConcepto" translatable="false">Descripción</string>
+    <string name="BotonSugarORM" translatable="false">Registrar en SugarORM</string>
 </resources>
